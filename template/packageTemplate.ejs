@@ -1,0 +1,20 @@
+{
+"name": "<%= projectName %>",
+"version": "1.0.0",
+"description": "This is a cli about to create a koa application",
+"main": "index.js",
+"scripts": {
+"dev": "node ./index.js"
+},
+"author": "",
+"license": "ISC",
+"dependencies": {
+"koa": "^2.13.1"
+<% if (middleware.router) { %>
+    ,"@koa/router": "^10.0.0"
+<% } %>
+<% if (middleware.static) { %>
+    ,"koa-static": "^5.0.0"
+<% } %>
+}
+}

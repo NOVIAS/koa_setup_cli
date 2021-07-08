@@ -1,0 +1,24 @@
+{
+  "name": "koa_setup",
+  "version": "1.0.0",
+  "description": "This is a cli about to create a koa application",
+  "main": "bin/index.js",
+  "bin": "./bin/index.js",
+  "type": "module",
+  "files": [
+    "bin",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "execa": "^5.1.1",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.1",
+    "prettier": "^2.3.2"
+  }
+}
