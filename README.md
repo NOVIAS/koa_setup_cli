@@ -1,8 +1,11 @@
 # koa_setup_cli
 This is a cli about to create a koa application
+
 # how to use
 ```
-npm link / yarn link
+1 npm i / yarn
 
-koa_setup
+2 npm link / yarn link
+
+3 koa_setup
 ```
